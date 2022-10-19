@@ -1,0 +1,58 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+li, a {
+    list-style: none;
+    text-decoration: none;
+    color: lightgrey;
+    font-size: 18px;
+    font-family: "Hero Secondary";
+}
+
+.Header {
+    height: 40vh;
+    background-color: #1f2937;
+    color: #f9faf8 ;
+}
+
+.tophead {
+    display: flex;
+    font-family: "Hero Main Text";
+ 
+
+}
+
+.tophead .right-side {
+    width: 50%;
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+}
+
+.tophead .left-side {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: 800;
+
+}
+
+
+
+
+img {
+    width: 80%;
+}
+
