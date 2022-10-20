@@ -6,26 +6,12 @@ body {
     box-sizing: border-box;
 }
 
-.body {
-    height: 500px;
-    background-color: #1f2937;
-    color: white;
-}
-
 p {
     padding: 0;
     margin: 0;
     
 }
 
-button {
-    padding: 8px 16px;
-    border-radius: 8px;
-    background-color: #3882F6;
-    border-color: #3882F6;
-    color: white;
-    font-weight: 700;
-}
 
 li, a {
     list-style: none;
@@ -35,42 +21,16 @@ li, a {
     font-family: "Hero Secondary";
 }
 
+/* ----------------- Header/Photo of LA Part ------------------*/ 
+
+.body {
+    height: 500px;
+    background-color: #1f2937;
+    color: white;
+}
+
 .secondpart .secondhalf img {
     max-width: 600px;
-}
-
-
-.random-title {
-    font-size: 36px;
-    font-weight: 700;
-    text-align: center;
-    margin-top: 36px;
-}
-
-
-.random-information .info img {
-    max-width: 300px;
-    border-radius: 50%;
-    clip-path: circle();
-
-}
-
-
-
-.random-information .info {
-    max-width: 300px;
-    font-size: 20px;
-}
-
-.random-information {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    height: 350px;
-    text-align: center;
-    gap: 52px;
-    
 }
 
 
@@ -133,6 +93,86 @@ li, a {
     justify-content: center;
     padding: 8px;
 }
+
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    border-color: #3882F6;
+    color: white;
+    font-weight: 700;
+    margin: 8px;
+}
+
+/* ----------------- Lizard Part ------------------*/ 
+
+
+.random-title {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 36px;
+    margin-bottom: 12px
+}
+
+
+.random-information .info img {
+    max-width: 300px;
+    border-radius: 50%;
+    clip-path: circle();
+
+}
+
+
+
+.random-information .info {
+    max-width: 300px;
+    font-size: 20px;
+ 
+}
+
+.random-information {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    text-align: center;
+    gap: 26px;
+    flex-grow: 1;
+    
+}
+
+
+/* ----------------- Quote Part ------------------*/ 
+
+.inspiring-quote{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    font-family: "light italic";
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.inspiring-quote .quote {
+    flex-shrink: 2;
+    max-width: 60%;
+}
+
+.inspiring-quote .citation {
+    flex-shrink: 1;
+    padding: 24px;
+    font-weight: 700;
+    text-align: right;
+}
+
+
+/* ----------------- Call to Action! ------------------*/
+
 
 
 
