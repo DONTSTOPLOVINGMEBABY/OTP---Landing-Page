@@ -1,15 +1,30 @@
 body {
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    height: 500px;
+    background-color: #1f2937;
+    color: white;
 }
 
 p {
     padding: 0;
     margin: 0;
     
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: #3882F6;
+    border-color: #3882F6;
+    color: white;
+    font-weight: 700;
 }
 
 li, a {
@@ -20,10 +35,69 @@ li, a {
     font-family: "Hero Secondary";
 }
 
+.secondpart .secondhalf img {
+    max-width: 600px;
+}
+
+.random-information .info img {
+    max-width: 300px;
+    border-radius: 50%;
+    clip-path: circle();
+
+}
+
+.random-information .info {
+    text-align: center;
+}
+
+.random-information {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 
 .firstpart {
+    height: 15%;
     display: flex;
-    background-color: #1f2937;
+}
+
+.secondpart {
+    height: 85%;
+    display: flex;
+   
+}
+
+.secondpart .firsthalf {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:nowrap;
+    flex: 1;
+}
+
+.secondpart .secondhalf {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+}
+
+.secondpart .firsthalf .title {
+    font-size: 48px;
+    font-weight: bolder;
+    text-align: center;
+    width: 275px;
+}
+
+.secondpart .firsthalf .subtitle {
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 275px;
+    text-align: center;
 }
 
 .firstpart .header-logo{
@@ -40,4 +114,9 @@ li, a {
     display: flex;
     gap: 2em;
     width: 50%;
+    justify-content: center;
+    padding: 8px;
 }
+
+
+
