@@ -118,7 +118,7 @@ button, .bottom-button{
 
 .random-information .info img {
     max-width: 300px;
-    border-radius: 50%;
+    border-radius: 60%;
     clip-path: circle();
 
 }
@@ -133,6 +133,7 @@ button, .bottom-button{
 
 .random-information {
     display: flex;
+    color: darkslategrey;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
@@ -185,6 +186,7 @@ button, .bottom-button{
 .call-to-action .box {
     height: 35%;
     width: 70%;
+    max-width: 700px;
     background-color: #3882F6 ;
     border-radius: 25px;
     display: flex;
@@ -209,6 +211,20 @@ button, .bottom-button{
     padding: 6px 24px;
 }
 
+
+/* ----------------- Footer ------------------*/
+
+.footer {
+    height: 80px;
+    background-color: #1f2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    color: white;
+}
 
 
 
