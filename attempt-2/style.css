@@ -94,7 +94,7 @@ li, a {
     padding: 8px;
 }
 
-button {
+button, .bottom-button{
     padding: 8px 16px;
     border-radius: 8px;
     background-color: #3882F6;
@@ -139,8 +139,8 @@ button {
     height: 500px;
     text-align: center;
     gap: 26px;
-    flex-grow: 1;
-    
+    flex: 1;
+    margin-bottom: 12px;
 }
 
 
@@ -172,6 +172,42 @@ button {
 
 
 /* ----------------- Call to Action! ------------------*/
+
+.call-to-action {
+    height: 350px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.call-to-action .box {
+    height: 35%;
+    width: 70%;
+    background-color: #3882F6 ;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.call-to-action .box .head {
+    font-size: larger;
+    font-weight: 700;
+}
+
+.call-to-action .box .subhead {
+    color: #E5E7EB;
+}
+
+.call-to-action .box .bottom-button{
+    font-weight: normal;
+    border-style: solid;
+    border-color: white;
+    padding: 6px 24px;
+}
 
 
 
